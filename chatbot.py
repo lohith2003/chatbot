@@ -22,6 +22,10 @@ if prompt:
     response = ""
     if "hello" in prompt.lower():
         response = "Hi there! How can I help you today?"
+    elif "hi" in prompt.lower():
+        response="hi how's is your day 😊"
+    elif "help me with aadharcard" in prompt.lower():
+        response="hi how's"
     elif "bye" in prompt.lower():
         response = "Goodbye! Have a great day!"
     else:
